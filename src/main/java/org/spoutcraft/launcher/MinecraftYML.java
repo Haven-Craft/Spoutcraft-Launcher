@@ -107,7 +107,7 @@ public class MinecraftYML {
 					}
 				}
 
-				if (YmlUtils.downloadYmlFile(MINECRAFT_YML, "https://raw.github.com/Haven-Craft/HavenCraft-Launcher/master/minecraft.yml", getConfigFile())) {
+				if (YmlUtils.downloadYmlFile(MINECRAFT_YML, "http://electro-gaming.org/Launcher/minecraft.yml", getConfigFile())) {
 					// GameUpdater.copy(getConfigFile(), output)
 					config = null;
 					Configuration config = getConfig();

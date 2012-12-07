@@ -27,9 +27,9 @@ import org.spoutcraft.launcher.async.Download;
 
 public class ModPackUpdater extends GameUpdater {
 
-	public static final String	defaultModPackName	= "technicssp";
+	public static final String	defaultModPackName	= "DNS";
 
-	private static final String	baseFallbackURL			= "https://github.com/Haven-Craft/HavenCraft-Launcher/";
+	private static final String	baseFallbackURL			= "http://electro-gaming.org/Launcher/";
 	private static final String	fallbackModsURL			= baseFallbackURL + "mods/";
 
 	public void updateModPackMods() {

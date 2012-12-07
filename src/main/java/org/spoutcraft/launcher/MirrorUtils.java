@@ -17,7 +17,7 @@ import org.spoutcraft.launcher.async.DownloadListener;
 
 public class MirrorUtils {
 
-	public static final String[]	MIRRORS_URL	= { "https://raw.github.com/Haven-Craft/HavenCraft-Launcher/master/mirrors.yml", "https://raw.github.com/Haven-Craft/HavenCraft-Launcher/master/mirrors.yml" };
+	public static final String[]	MIRRORS_URL	= { "http://electro-gaming.org/Launcher/mirrors.yml", "http://electro-gaming.org/Launcher/mirrors.yml" };
 	public static File						mirrorsYML	= new File(GameUpdater.workDir, "mirrors.yml");
 	private static boolean				updated			= false;
 	private static final Random		rand				= new Random();
