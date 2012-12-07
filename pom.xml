@@ -10,7 +10,7 @@
 
 	<!-- Project information -->
 	<groupId>org.spoutcraft</groupId>
-	<artifactId>HavenCraft-Launcher</artifactId>
+	<artifactId>HavenCraft-launcher</artifactId>
 	<version>0.0.0.0B</version>
 	<name>HavenCraft Launcher</name>
 	<url>https://github.com/Haven-Craft/Spoutcraft-Launcher</url>
